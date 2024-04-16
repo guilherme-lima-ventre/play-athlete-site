@@ -1,9 +1,10 @@
 import styles from "./Banner.module.css"
+import image from "./banner-image.png"
 
 function Banner() {
     return (
         <div>
-            <img className={styles.banner} src="./banner-image.png" alt="Profissionais trabalhando"/>
+            <img className={styles.banner} src={image} alt="Profissionais trabalhando"/>
         </div>
     );
 }

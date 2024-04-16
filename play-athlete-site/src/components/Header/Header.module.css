@@ -17,18 +17,18 @@
     position: relative;
     width: 100px;
     height: 100px;
-    padding-inline: 3.75%;
+    padding-inline: 3%;
 }
 
 .header nav {
     position: relative;
 
-    padding-inline-start: 20.31%;
+    padding-inline-start: 20%;
 
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 40px;
+    gap: 30px;
 }
 
 .header a {
@@ -47,7 +47,7 @@
     justify-content: center;
     gap: 30px;
 
-    padding-inline: 6.25% 5.6%;
+    padding-inline: 6% 5%;
 }
 
 

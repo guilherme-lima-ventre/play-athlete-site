@@ -2,6 +2,10 @@
   /* Background Colors */
   --white-color: #FFFFFF;
   --light-blue-color: #F1F8FF;
+  --blue-color: #cbddf0;
+
+  margin: 0px;
+  padding: 0px;
 }
 
 body {
@@ -10,16 +14,5 @@ body {
 }
 
 body::-webkit-scrollbar {
-  width: 8px;
-  background-color: var(--black-color);
+  width: 0px;
 }
-
-body::-webkit-scrollbar-track {
-  background: var(--black-color);
-}
-
-body::-webkit-scrollbar-thumb {
-  background-color: var(--strong-red-color);
-  border-radius: 20px;
-  border: 3px solid var(--black-color);
-} 
