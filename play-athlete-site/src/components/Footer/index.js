@@ -1,44 +1,88 @@
 import { Link } from "react-router-dom";
-import styles from "./Footer.module.css"
+import styles from "./Footer.module.css";
+import logoFacebook from "../../images/facebook-logo.svg";
+import logoInstagram from "../../images/instagram-logo.svg";
+import logoLinkedin from "../../images/twitter-logo.svg";
+import sendEmail from "../../images/send-email.svg";
 
 function Footer() {
+    const home = "HOME";
+    const aboutUs = "ABOUT US";
+    const services = "SERVICES";
+    const contactUs = "CONTACT US";
 
-    let companyText = "Quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione";
-    let copyrightText = "Copyright © 2023";
-    let pageLinks = "Páginas";
-    let subscribeTitle = "Inscreva-se";
-    let subscribeText = "Sign up for Alerts, Special Offers, Educationand Updates";
+    const linkFacebook = "https://www.facebook.com/";
+    const linkInstagram = "https://www.instagram.com/?hl=pt-br";
+    const linkLinkedin = "https://www.linkedin.com/";
+
+    const companyText = "Quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione";
+    const copyrightText = "Copyright © 2023";
+    const pageLinks = "Páginas";
+    const subscribeTitle = "Inscreva-se";
+    const subscribeText = "Sign up for Alerts, Special Offers, Educationand Updates";
+
+    const inputPlaceholder = "Enter your email";
 
     return (
         <footer className={styles.footer}>
-            <div>
+            <div className={styles.company}>
                 <img
                     src="../../images/logo-play-athlete.svg" alt="Logo Play Athlete"/>
                 <p>{companyText}</p>
                 <p>{copyrightText}</p>
             </div>
 
-            <div>
-                <p>{pageLinks}</p>
+            <div className={styles.pages}>
+                <p className={styles.pagesTitle}>{pageLinks}</p>
                 <nav>
-                    <Link to="/">HOME</Link>
-                    <Link to="/about-us">ABOUT US</Link>
-                    <Link to="/services">SERVICES</Link>
-                    <Link to="/contact-us">CONTACT US</Link>
+                    <Link className={styles.pagesName} to="/">
+                        <p>{home}</p>
+                    </Link>
+                    <Link className={styles.pagesName} to="/about-us">
+                        <p>{aboutUs}</p>
+                    </Link>
+                    <Link className={styles.pagesName} to="/services">
+                        <p>{services}</p>
+                    </Link>
+                    <Link className={styles.pagesName} to="/contact-us">
+                        <p>{contactUs}</p>
+                    </Link>
                 </nav>
             </div>
 
-            <div>
-                <p>{subscribeTitle}</p>
-                <p>{subscribeText}</p>
-                <input/>
-                <div>
-                    <a href="https://www.facebook.com/" target="_blank">
-                        FB</a>
-                    <a href="https://www.instagram.com/?hl=pt-br" target="_blank">
-                        IG</a>
-                    <a href="https://www.linkedin.com/" target="_blank">
-                        LI</a>
+            <div className={styles.subscribe}>
+                <p className={styles.subscribeTitle}>{subscribeTitle}</p>
+                <p className={styles.subscribeText}>{subscribeText}</p>
+                <div className={styles.subscribeInput}>
+                    <input className={styles.subscribeInputPlace}
+                        placeholder={inputPlaceholder}
+                        style={{
+                            paddingLeft: '10px'
+                            ,outline: 'none'}}
+                        />
+                    <button 
+                        className={styles.subscribeButton}
+                        onClick={() => {}}>                
+                        <img 
+                            className={styles.subscribeImage}
+                            src={sendEmail}
+                            alt="Enviar email"
+                            />
+                    </button>
+                </div>
+                <div className={styles.subscribeMedias}>
+                    <a href={linkFacebook} target="_blank">
+                        <img 
+                            src={logoFacebook} alt="Logo Facebook"/>
+                    </a>
+                    <a href={linkInstagram} target="_blank">
+                        <img 
+                            src={logoInstagram} alt="Logo Instagram"/>
+                    </a>
+                    <a href={linkLinkedin} target="_blank">
+                        <img
+                            src={logoLinkedin} alt="Logo Linkedin"/>
+                    </a>
                 </div>
             </div>
         </footer>
