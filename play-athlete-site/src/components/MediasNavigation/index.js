@@ -3,13 +3,13 @@ import logoFacebook from "../../images/facebook-logo.svg";
 import logoInstagram from "../../images/instagram-logo.svg";
 import logoLinkedin from "../../images/twitter-logo.svg";
 
-function MediasNavigation() {
+function MediasNavigation({ flexDirection="row" }) {
     const linkFacebook = "https://www.facebook.com/";
     const linkInstagram = "https://www.instagram.com/?hl=pt-br";
     const linkLinkedin = "https://www.linkedin.com/";
 
     return (
-        <nav className={styles.medias}>
+        <nav className={styles.medias} style={{flexDirection}}>
             <a href={linkFacebook} target="_blank">
                 <img src={logoFacebook} alt="Logo Facebook"/>
             </a>

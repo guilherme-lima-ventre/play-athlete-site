@@ -1,7 +1,35 @@
 .footer {
-    position: absolute;
+    position: relative;
     bottom: 0;
 
     display: grid;
-    
+    grid-template-columns: repeat(3, 1fr);
+
+    min-height: 15rem;
+    padding: 1rem 1rem;
+}
+
+.footerContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self: flex-start;
+    justify-content: space-around;
+    gap: 2rem;
+}
+
+.footerContent h2 {
+    font-size: 1.25rem;
+    font-weight: 700;
+    line-height: 1.5rem;
+    text-align: left;
+    color: var(--dark-blue-color);
+}
+
+.footerContent p {
+    font-size: 0.75rem;
+    font-weight: 400;
+    line-height: 1rem;
+    text-align: left;    
+    color: var(--dark-blue-color);
 }
