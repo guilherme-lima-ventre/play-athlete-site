@@ -7,7 +7,6 @@ function Home() {
     return (
         <>
             <Header/>
-            <div style={{'margin-top': '100px'}}></div>
             <Banner/>
             <Footer/>
         </>

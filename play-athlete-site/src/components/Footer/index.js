@@ -24,68 +24,9 @@ function Footer() {
     const inputPlaceholder = "Enter your email";
 
     return (
-        <footer className={styles.footer}>
-            <div className={styles.company}>
-                <img
-                    src="../../images/logo-play-athlete.svg" alt="Logo Play Athlete"/>
-                <p>{companyText}</p>
-                <p>{copyrightText}</p>
-            </div>
+        <section className={styles.footer}>
 
-            <div className={styles.pages}>
-                <p className={styles.pagesTitle}>{pageLinks}</p>
-                <nav>
-                    <Link className={styles.pagesName} to="/">
-                        <p>{home}</p>
-                    </Link>
-                    <Link className={styles.pagesName} to="/about-us">
-                        <p>{aboutUs}</p>
-                    </Link>
-                    <Link className={styles.pagesName} to="/services">
-                        <p>{services}</p>
-                    </Link>
-                    <Link className={styles.pagesName} to="/contact-us">
-                        <p>{contactUs}</p>
-                    </Link>
-                </nav>
-            </div>
-
-            <div className={styles.subscribe}>
-                <p className={styles.subscribeTitle}>{subscribeTitle}</p>
-                <p className={styles.subscribeText}>{subscribeText}</p>
-                <div className={styles.subscribeInput}>
-                    <input className={styles.subscribeInputPlace}
-                        placeholder={inputPlaceholder}
-                        style={{
-                            paddingLeft: '10px'
-                            ,outline: 'none'}}
-                        />
-                    <button 
-                        className={styles.subscribeButton}
-                        onClick={() => {}}>                
-                        <img 
-                            className={styles.subscribeImage}
-                            src={sendEmail}
-                            alt="Enviar email"
-                            />
-                    </button>
-                </div>
-                <div className={styles.subscribeMedias}>
-                    <a href={linkFacebook} target="_blank">
-                        <img 
-                            src={logoFacebook} alt="Logo Facebook"/>
-                    </a>
-                    <a href={linkInstagram} target="_blank">
-                        <img 
-                            src={logoInstagram} alt="Logo Instagram"/>
-                    </a>
-                    <a href={linkLinkedin} target="_blank">
-                        <img
-                            src={logoLinkedin} alt="Logo Linkedin"/>
-                    </a>
-                </div>
-            </div>
-        </footer>
+        </section>
     );
 }
 

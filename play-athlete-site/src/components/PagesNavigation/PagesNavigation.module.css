@@ -1,0 +1,24 @@
+.pages{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-inline: 1rem;
+    gap: 2rem;
+}
+
+.pages a {
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--dark-blue-color);
+}
+
+.pages a:hover {
+    color: var(--hover-blue-color);
+}
+
+.pages a:active {
+    color: var(--active-blue-color);
+}
+

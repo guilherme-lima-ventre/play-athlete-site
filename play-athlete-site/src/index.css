@@ -1,19 +1,25 @@
 * {
-  /* Background Colors */
+  /* Fixed Colors */
   --white-color: #FFFFFF;
   --dark-blue-color: #11467A;
   --light-blue-color: #F1F8FF;
   --blue-color: #cbddf0;
 
+  --dark-blue-color: #11467A;
+  --hover-blue-color: #2c73bb;
+  --active-blue-color: #51a4f7;
+
+  --green-color: #0F821B;
+  --hover-green-color: #149921;
+  --active-green-color: #17af26;
+
   margin: 0px;
   padding: 0px;
-}
-
-body {
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-size: 16px;
+  max-width: 100vw;
 }
 
 body::-webkit-scrollbar {
-  width: 0px;
+  width: 0;
+  background: transparent;
 }

@@ -1,0 +1,24 @@
+.medias {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-self: center;
+    justify-content: center;
+    gap: 2rem;
+    padding: 1rem;
+}
+
+.medias img {
+    width: 25px;
+    height: 25px;
+    padding: 0;
+}
+
+.medias img:hover {
+    opacity: 80%;
+}
+
+.medias img:active {
+    opacity: 60%;
+}
+
