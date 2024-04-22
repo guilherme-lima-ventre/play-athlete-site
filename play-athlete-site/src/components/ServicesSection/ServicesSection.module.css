@@ -1,0 +1,89 @@
+.servicesSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    gap: 1rem;
+    background-color: var(--light-blue-color);
+}
+
+.servicesSection h2 {
+    font-size: 2rem;
+    font-weight: 600;
+    text-align: left;
+    color: var(--dark-blue-color);
+    align-self: flex-start;
+}
+
+.servicesSection hr {
+    width: 4rem;
+    border: solid 2px var(--green-color);
+    align-self: flex-start;
+}
+
+.servicesSection div {
+    width: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3rem;
+}
+
+.servicesSection section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 1rem;
+}
+
+.servicesSection section img {
+    width: 4rem;
+    height: 3rem;
+}
+
+.servicesSection section h3 {
+    font-size: 1rem;
+    font-weight: 500;
+    text-align: left;
+    color: var(--dark-blue-color);
+    text-align: justify;
+}
+
+.servicesSection section p {
+    font-size: 0.825rem;
+    font-weight: 400;
+    line-height: 1rem;
+    text-align: left;
+    color: var(--grey-color);
+    text-align: justify;
+}
+
+@media (max-width: 1000px) {
+    .servicesSection {
+        flex-wrap: wrap;
+        padding-inline: 1rem;
+    }
+
+    .servicesSection h2 {
+        padding-left: 3rem;
+    }
+
+    .servicesSection hr {
+        margin-left: 3rem;
+    }
+
+    .servicesSection div {
+        display: grid;
+        grid-template-columns: repeat(1, 3fr);
+        gap: 3rem;
+        padding-inline: 3rem;
+    }
+}
+
+@media (min-width: 1001px) {
+    .servicesSection {
+        flex-wrap: nowrap;
+        padding-inline: 10rem;
+    }
+}

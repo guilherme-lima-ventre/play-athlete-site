@@ -1,0 +1,30 @@
+.partners {
+    overflow: hidden;
+    background-color: var(--light-blue-color);
+    padding: 5rem 0;
+    white-space: nowrap; 
+    position: relative;
+}
+
+.partners div {
+    display: inline-block;
+    animation: loop 10s linear infinite ;
+}
+
+.partners div:hover {
+    animation-play-state: paused;
+}
+
+.partners img {
+    height: 5rem;
+    margin: 0rem 5rem;
+}
+
+@keyframes loop {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translate(-99%);
+    }
+}
