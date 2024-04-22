@@ -63,9 +63,8 @@
     background: transparent;
     border: transparent;
 
-    font-size: 0.875rem;
+    font-size: 1rem;
     font-weight: 500;
-    line-height: 1rem;
     text-align: left;
     color: var(--dark-blue-color);
 }
@@ -73,6 +72,11 @@
 .contentSection button img {
     width: 0.75rem;
     height: 0.75rem;
+    align-self: center;
+}
+
+.contentSection a {
+    text-decoration: none;
 }
 
 @media (max-width: 600px) {

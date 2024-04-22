@@ -1,5 +1,6 @@
 import styles from "./ContentSection.module.css";
 import arrow from "../../images/arrow-right-green.svg";
+import { Link } from "react-router-dom";
 
 function ContentSection({ title, subtitle, text, page, image }) {
 
@@ -13,13 +14,15 @@ function ContentSection({ title, subtitle, text, page, image }) {
                 <hr/>
                 <h3>{subtitle}</h3>
                 <p>{text}</p>
-                <button>
-                    Read More
-                    <img 
-                        id="arrow"
-                        src={arrow} 
-                        alt="Arrow Right"/>
-                </button>
+                <Link to={page}>
+                    <button>
+                        Read More
+                        <img
+                            id="arrow"
+                            src={arrow} 
+                            alt="Arrow Right"/>
+                    </button>
+                </Link>   
             </div>            
         </section>
     );
