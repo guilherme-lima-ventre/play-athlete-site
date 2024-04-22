@@ -12,6 +12,8 @@
     row-gap: 1rem;
     
     background-color: var(--white-color);
+
+    border-bottom: solid 0.25px var(--dark-blue-color);
 }
 
 .header img {
