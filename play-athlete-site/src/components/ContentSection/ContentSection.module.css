@@ -5,18 +5,17 @@
     justify-content: center;
     align-items: flex-start;
     gap: 1rem;
-    padding: 2rem 1rem;
+    padding: 2rem 10rem;
 }
 
 .contentSection img {
-    width: 40vw;
+    width: 50%;
     height: 30vh;
-    align-self: flex-start;
+    background-color: rgb(122, 122, 12);
 }
 
 .contentSection div {
-    width: 50vw;
-    height: auto;
+    width: 50%;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -73,22 +72,31 @@
     width: 0.75rem;
     height: 0.75rem;
     align-self: center;
+    background-color: transparent;
 }
 
 .contentSection a {
     text-decoration: none;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 1000px) {
+    .contentSection {
+        padding: 1rem;
+    }
+
     .contentSection div {
         padding-right: 0rem;
+        width: 100vw;
+        padding-inline: 3rem;
     }
+
+    .contentSection img {
+        width: 75vw;
+    }
+
 }
 
-@media (min-width: 601px) {
-    .contentSection div {
-        padding-right: 5rem;
-    }
+@media (min-width: 1001px) {
     .contentSection {
         flex-wrap: nowrap;
     }

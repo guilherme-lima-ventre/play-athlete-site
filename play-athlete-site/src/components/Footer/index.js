@@ -1,8 +1,5 @@
 import styles from "./Footer.module.css";
 import logoPlayAthlete from "../../images/logo-play-athlete.svg";
-import logoFacebook from "../../images/facebook-logo.svg";
-import logoInstagram from "../../images/instagram-logo.svg";
-import logoLinkedin from "../../images/twitter-logo.svg";
 import PagesNavigation from "../PagesNavigation";
 import MediasNavigation from "../MediasNavigation";
 
@@ -17,7 +14,7 @@ function Footer() {
             <div className={styles.footerContent}>
                 <img src={logoPlayAthlete} alt="Logo Play Athlete" />
                 <p>{companyText}</p>
-            </div>
+            </div> 
 
             <div className={styles.footerContent}>
                 <h2>{pageLinks}</h2>
