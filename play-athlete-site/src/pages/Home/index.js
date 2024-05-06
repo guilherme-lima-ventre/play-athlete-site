@@ -28,7 +28,7 @@ function Home() {
             {/* About Company */}
             <ContentSection title={aboutTitle} subtitle={aboutSubtitle} text={aboutText} page={aboutRoute} image={aboutImage}/>
             {/* Our Services */}
-            <ServicesSection title={servicesTitle} page={servicesRoute}/>
+            <ServicesSection itle={servicesTitle} page={servicesRoute}/>
             {/* Our achieve */}
             <ContentSection title={achieveTitle} subtitle={achieveSubtitle} text={achieveText} page={aboutRoute} image={achieveImage}/>
             <Partners/>
