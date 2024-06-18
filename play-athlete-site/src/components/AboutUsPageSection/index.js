@@ -8,6 +8,7 @@ function AboutUsPageSection({ title, subtitle, text, image, flexDirection }) {
     return (
         <section className={styles.section} style={{flexDirection, backgroundColor}}>
             <img
+                className={styles.imagem}
                 src={image}
                 alt={title}/>
             <div style={{paddingRight, paddingLeft}}>

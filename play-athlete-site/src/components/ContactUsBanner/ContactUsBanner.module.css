@@ -64,6 +64,12 @@
     text-align: center;
 }
 
+.imagem3{
+    height: 120px;
+    width: 120px;
+    text-align: center;
+}
+
 .media{
     display: flex;
     list-style: none;

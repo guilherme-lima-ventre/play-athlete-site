@@ -3,19 +3,22 @@ import contactUs from "../../images/contact-us.png";
 import logoFacebook from "../../images/facebook-logo.svg";
 import logoInstagram from "../../images/instagram-logo.svg";
 import logoLinkedin from "../../images/twitter-logo.svg";
+import whats from "../../images/whats2.png";
+
 
 
 function ContactUsBanner() {
     const linkFacebook = "https://www.facebook.com/";
     const linkInstagram = "https://www.instagram.com/?hl=pt-br";
     const linkLinkedin = "https://www.linkedin.com/";
+    const linkWhats = "https://wa.me/16823760929?text=Ol%C3%A1!%20Estou%20interressado%20e%20gostaria%20de%20obter%20mais%20informa%C3%A7%C3%B5es%20sobre%20a%20PlayAthlete";
 
     return (
         <section className={styles.contactUsBanner}>
             <div className={styles.container}>
                 <div className={styles.item}>
                     <div className={styles.contact}>
-                        <div className={styles.first}>Nos Mande uma mensagem</div>
+                        <div className={styles.first}>Nos mande uma mensagem</div>
                         <img className={styles.imagem1} src={contactUs} />
                         <div className={styles.social}>
                             <ul className={styles.media}>
@@ -26,26 +29,11 @@ function ContactUsBanner() {
                         </div>
                     </div>  
                     <div className={styles.submit}>
-                    <div className={styles.third}>Contate-nos</div>
-                        <form>
-                            <div className={styles.inputBox}>
-                                <label for="">Nome</label>
-                                <input type="text" className={styles.input} required/>
-                            </div>
-                            <div className={styles.inputBox}>
-                                <label for="">Email</label>
-                                <input type="email" className={styles.input} required/>
-                            </div>
-                            <div className={styles.inputBox}>
-                                <label for="">Celular</label>
-                                <input type="tel" className={styles.input} required/>
-                            </div>
-                            <div className={styles.inputBox}>
-                                <label for="">Mensagem</label>
-                                <textarea className={styles.input} id="message" cols="30" rows="10" required/>
-                            </div>
-                            <input type="submit" className={styles.btn} value="Enviar"></input>
-                        </form>
+                        <div className={styles.first}>Contate-nos</div>
+                        <div className={styles.contactUsText}>
+                            
+                        </div>
+                        <a href={linkWhats} target="_blank"><img className={styles.imagem3} src={whats}/></a>
                     </div>
                 </div>
             </div>
