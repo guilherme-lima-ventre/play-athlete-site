@@ -3,16 +3,18 @@ import styles from "./PagesNavigation.module.css";
 
 function PagesNavigation({ flexDirection="row" }) {
     const home = "HOME";
-    const aboutUs = "ABOUT US";
-    const services = "SERVICES";
-    const contactUs = "CONTACT US";
+    const services = "SOBRE NÓS";
+    const aboutUs = "NOSSO TIME";
+    const contactUs = "CONTATO";
+    const faq = "FAQ";
 
     return (
         <nav className={styles.pages} style={{flexDirection}}>
             <Link to="/">{home}</Link>
-            <Link to="/about-us">{aboutUs}</Link>
-            <Link to="/services">{services}</Link>
+            <Link to="/sobre-nos">{services}</Link>
+            <Link to="/nosso-time">{aboutUs}</Link>
             <Link to="/contact-us">{contactUs}</Link>
+            <Link to="/faq">{faq}</Link>
         </nav> 
     );
 }

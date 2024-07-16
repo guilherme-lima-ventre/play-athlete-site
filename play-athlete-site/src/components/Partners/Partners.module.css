@@ -8,7 +8,7 @@
 
 .partners div {
     display: inline-block;
-    animation: loop 10s linear infinite ;
+    animation: loop 35s linear infinite ;
 }
 
 .partners div:hover {
@@ -25,6 +25,6 @@
         transform: translateX(0);
     }
     to {
-        transform: translate(-99%);
+        transform: translate(-850%);
     }
 }
