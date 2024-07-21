@@ -22,7 +22,6 @@ function Services() {
 
     return (
         <>
-            <Header/>
             <ServicesPageSection title={service1} subtitle={serviceTitle1} text={serviceText1} image={aboutImage1} flexDirection="row"></ServicesPageSection>
 
             <ServicesPageSection title={service2} subtitle={serviceTitle2} text={serviceText2} image={aboutImage2} flexDirection="row-reverse"></ServicesPageSection>

@@ -5,17 +5,61 @@ import Services from "./pages/Services";
 import ContactUs from "./pages/ContactUs";
 import PageNotFound from "./pages/PageNotFound";
 import Faq from "./pages/Faq";
+import Header from "./components/Header";
+import PageAnimationFadeIn from "./components/PageAnimationFadeIn";
 
 function AppRoutes() {
     return (
         <BrowserRouter>
             <Routes>
-                <Route path="/" element={<Home/>} />
-                <Route path="/nosso-time" element={<AboutUs />} />
-                <Route path="/sobre-nos" element={<Services />} />
-                <Route path="/contact-us" element={<ContactUs />} />
-                <Route path="/faq" element={<Faq />} />
-                <Route path="*" element={<PageNotFound />} />
+                <Route path="/" element={
+                    <>
+                        <Header/>
+                        <PageAnimationFadeIn key="home">
+                        <Home/>
+                        </PageAnimationFadeIn>
+                    </>
+                    } />
+                <Route path="/nosso-time" element={
+                    <>
+                        <Header/>
+                        <PageAnimationFadeIn key="aboutUs">
+                        <AboutUs />
+                        </PageAnimationFadeIn>
+                    </>
+                    } />
+                <Route path="/sobre-nos" element={
+                    <>
+                        <Header/>
+                        <PageAnimationFadeIn key="services">
+                        <Services />
+                        </PageAnimationFadeIn>
+                    </>
+                    } />
+                <Route path="/contact-us" element={
+                    <>
+                        <Header/>
+                        <PageAnimationFadeIn key="contactUs">
+                        <ContactUs />
+                        </PageAnimationFadeIn>
+                    </>
+                    } />
+                <Route path="/faq" element={
+                    <>
+                        <Header/>
+                        <PageAnimationFadeIn key="faq">
+                        <Faq />
+                        </PageAnimationFadeIn>
+                    </>
+                    } />
+                <Route path="*" element={
+                    <>
+                        <Header/>
+                        <PageAnimationFadeIn key="pageNotFound">
+                        <PageNotFound />
+                        </PageAnimationFadeIn>
+                    </>
+                    } />
             </Routes>
         </BrowserRouter>
     );

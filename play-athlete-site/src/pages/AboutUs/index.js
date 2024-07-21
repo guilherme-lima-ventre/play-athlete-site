@@ -27,14 +27,13 @@ function AboutUs() {
     const personText7 = "Integrante do time nacional, Kainan se destacou tanto no esporte quanto na parte acadêmica, o que lhe rendeu uma bolsa para ser student-athlete na Grand Canyon University em Phoenix, Arizona. Em 2022, graduou-se em Business Management. Atualmente, Kainan também atua como COO de uma start-up inovadora no setor de transporte.";
 
     return (
-        <>
-            <Header/>
+        <section>
             <AboutUsPageSection title={person1} subtitle={personTitle1} subtitle2={personText6} text={personText1} image={raphael} flexDirection="row"></AboutUsPageSection>
             <AboutUsPageSection title={person2} subtitle={personTitle2} subtitle2={personText5} text={personText2} image={adriana} flexDirection="row-reverse"></AboutUsPageSection>
             <AboutUsPageSection title={person3} subtitle={personTitle3} subtitle2={personText4} text={personText3} image={lucas} flexDirection="row"></AboutUsPageSection>
             <AboutUsPageSection title={person4} subtitle={personTitle4} subtitle2={personText7} image={kainan} flexDirection="row-reverse"></AboutUsPageSection>
             <Footer/>
-        </>
+        </section>
     );
 }
 

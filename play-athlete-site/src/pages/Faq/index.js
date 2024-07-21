@@ -6,8 +6,7 @@ function Faq() {
    
     return (
         <>
-            <Header/>
-                <FaqContent/>
+            <FaqContent/>
             <Footer/>
         </>
     );
