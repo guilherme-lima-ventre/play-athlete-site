@@ -2,7 +2,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     gap: 1rem;
     padding: 2rem 10rem;
 }
@@ -24,13 +24,14 @@
 .section h2 {
     font-size: 2rem;
     font-weight: 600;
-    text-align: left;
+    align-self: center;
     color: var(--dark-blue-color);
 }
 
 .section hr {
     width: 4rem;
     border: solid 2px var(--green-color);
+    align-self: center;
 }
 
 .section h3 {
