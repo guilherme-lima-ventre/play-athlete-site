@@ -8,9 +8,8 @@
 }
 
 .section img {
-    width: 30%;
-    height: 40vh;
-    background-color: rgb(122, 122, 12);
+    width: 15%;
+    height: 20%;
 }
 
 .section div {
@@ -61,7 +60,7 @@
     }
 
     .section img {
-        width: 75vw;
+        width: 20%;
     }
 
 }
