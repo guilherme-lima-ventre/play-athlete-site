@@ -24,13 +24,14 @@
 .section h2 {
     font-size: 2rem;
     font-weight: 600;
-    text-align: left;
+    align-self: center;
     color: var(--dark-blue-color);
 }
 
 .section hr {
     width: 4rem;
     border: solid 2px var(--green-color);
+    align-self: center;
 }
 
 .section h3 {
