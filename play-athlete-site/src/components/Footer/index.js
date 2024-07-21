@@ -13,7 +13,6 @@ function Footer() {
         <section className={styles.footer}>
             <div className={styles.footerContent}>
                 <img src={logoPlayAthlete} alt="Logo Play Athlete" />
-                <p>{companyText}</p>
             </div> 
 
             <div className={styles.footerContent}>

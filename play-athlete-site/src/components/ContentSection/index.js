@@ -5,7 +5,7 @@ import universidade from "../../images/universidade.png";
 import treinador from "../../images/treinador.png";
 import candidatura from "../../images/candidatura.png";
 import escolha from "../../images/escolha.png";
-import suporte from "../../images/suporte.png";
+import apoio from "../../images/apoio-suporte.png";
 import ServiceContent from "../ServiceContent";
 
 function ContentSection({ title, subtitle, text, page, image }) {
@@ -45,7 +45,7 @@ function ContentSection({ title, subtitle, text, page, image }) {
             <div>
                 <ServiceContent serviceImage={candidatura} serviceTitle={service5Title} serviceText={service5Text} page={page}/>
                 <ServiceContent serviceImage={escolha} serviceTitle={service6Title} serviceText={service6Text} page={page}/>
-                <ServiceContent serviceImage={suporte} serviceTitle={service7Title} serviceText={service7Text} page={page}/>
+                <ServiceContent serviceImage={apoio} serviceTitle={service7Title} serviceText={service7Text} page={page}/>
             </div>
         </section>
     );
