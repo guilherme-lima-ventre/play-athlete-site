@@ -1,19 +1,22 @@
 import styles from "./Banner.module.css"
 import arrow from "../../images/arrow-right.svg"
+import { Link } from "react-router-dom";
 
 function Banner() {
-    const bannerTitle = "Establish, Grow and Scale the Business with us";
-    const bannerText = "Lorem ipsum dolor sit amet, consectetur adipiscing eliteLorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae urna diam. Maecenas commodo sem quis vulputate hendrerit.";
-    const buttonText = "Learn More";
+    const bannerTitle = "Play Athlete";
+    const bannerText = "A PlayAthlete é uma empresa dedicada a transformar o futuro de jovens atletas, conectando-os com faculdades americanas, possibilitando que atletas conquistem bolsas de estudo para jogarem e estudarem nos Estados Unidos. O nosso objetivo é tornar o seu sonho realidade.";
+    const buttonText = "Saiba mais";
 
     return (
         <section className={styles.banner}>
             <h1>{bannerTitle}</h1>
             <p>{bannerText}</p>
-            <button>
-                {buttonText}
-                <img src={arrow} alt="Arrow Right"></img>
-            </button>
+            <Link to="/sobre-nos" style={{color: 'white'}}>
+                <button>
+                    {buttonText}
+                    <img src={arrow} alt="Arrow Right"></img>
+                </button>
+            </Link>
         </section>
     );
 }

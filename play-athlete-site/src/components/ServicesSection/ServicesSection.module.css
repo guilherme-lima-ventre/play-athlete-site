@@ -13,20 +13,21 @@
     font-weight: 600;
     text-align: left;
     color: var(--dark-blue-color);
-    align-self: flex-start;
+    align-self: center;
 }
+
 
 .servicesSection hr {
     width: 4rem;
     border: solid 2px var(--green-color);
-    align-self: flex-start;
+    align-self: center;
+    margin-bottom: 20px;
 }
 
 .servicesSection div {
     width: auto;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 3rem;
+    display: flex;
+    gap: 6rem;
 }
 
 .servicesSection section {
@@ -38,7 +39,7 @@
 }
 
 .servicesSection section img {
-    width: 4rem;
+    width: 7rem;
     height: 3rem;
 }
 

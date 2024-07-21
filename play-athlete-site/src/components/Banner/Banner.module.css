@@ -7,12 +7,13 @@
     align-items: flex-start;
 
     padding-block: 1rem;
-    padding-left: 1rem;
+    padding-left: 3rem;
     padding-right: 0.5rem;
-    min-height: 60vh;
-    /* background-image: url(banner-image.png); */
-    background-color: rgb(187, 187, 97);
-
+    min-height: 50vh;
+    background-image: url(faculdade.jpg); 
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: 100%;
 }
 
 .banner h1 {
@@ -29,13 +30,10 @@
 .banner p {
     max-width: 50rem;
     padding-right: calc(100vw - 70rem);
-
-    font-size: 1rem;
-    font-weight: 500;
+    font-size: 1.3rem;
     line-height: 1.5rem;
     text-align: left;
     color: var(--white-color)
-
 }
 
 .banner button {
@@ -52,7 +50,7 @@
     margin-top: 1rem;
     padding: 0.5rem 2rem;
     border-radius: 0.25rem;
-    background-color: var(--green-color);
+    background-color: var(--darker-blue-color);
     border: transparent;
 
     color: var(--white-color);
@@ -63,9 +61,9 @@
 }
 
 .banner button:hover {
-    background-color: var(--hover-green-color);
+    background-color: var(--active-blue-color);
 }
 
 .banner button:active {
-    background-color: var(--active-green-color);
+    background-color: var(--hover-blue-color);
 }
