@@ -1,6 +1,7 @@
 import styles from "./Footer.module.css";
 import logoPlayAthlete from "../../images/logo-play-athlete.svg";
 import MediasNavigation from "../MediasNavigation";
+import EmailIcon from '@mui/icons-material/Email';
 
 function Footer() {
     const companyText = "Quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione";
@@ -17,7 +18,7 @@ function Footer() {
 
             <div className={styles.footerContent}>
                 <h2>{pageLinks}</h2>
-                <p>{contactText}</p>
+                <p>{contactText}<EmailIcon/></p>
             </div>
 
             <div className={styles.footerContent}>
