@@ -6,12 +6,15 @@
     text-align: left;
     color: var(--dark-blue-color);
     align-self: center;
+    margin-bottom: 10px; /* Ajuste o valor conforme necessário */
 }
 
 .faq hr {
     width: 4rem;
     border: solid 2px var(--green-color);
     align-self: center;
+    margin-bottom: 20px; /* Ajuste o valor conforme necessário */
+
 }
 
 .faq {
