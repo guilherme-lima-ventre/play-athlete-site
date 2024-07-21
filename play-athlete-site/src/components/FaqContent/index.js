@@ -16,7 +16,19 @@ function FaqContent() {
         {
             question: "QUAL É O HORÁRIO DE ATENDIMENTO?",
             answer: "Nosso horário de atendimento é de segunda a sexta, das 9h às 18h."
-        }
+        },
+        {
+            question: "COMO POSSO ENTRAR EM CONTATO COM O SUPORTE?",
+            answer: "Você pode entrar em contato com o suporte através do nosso formulário de contato ou pelo e-mail suporte@exemplo.com."
+        },
+        {
+            question: "COMO POSSO ENTRAR EM CONTATO COM O SUPORTE?",
+            answer: "Você pode entrar em contato com o suporte através do nosso formulário de contato ou pelo e-mail suporte@exemplo.com."
+        },
+        {
+            question: "COMO POSSO ENTRAR EM CONTATO COM O SUPORTE?",
+            answer: "Você pode entrar em contato com o suporte através do nosso formulário de contato ou pelo e-mail suporte@exemplo.com."
+        },
     ];
 
     return (
