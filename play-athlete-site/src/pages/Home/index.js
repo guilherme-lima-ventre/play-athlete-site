@@ -6,6 +6,7 @@ import ServicesSection from '../../components/ServicesSection';
 import Partners from '../../components/Partners';
 import aboutImage from '../../images/logo-play-athlete.svg';
 import achieveImage from '../../images/logo-play-athlete.svg';
+import DiferenciasSection from '../../components/DiferenciaisPage';
 
 function Home() {
     const aboutTitle = "About Company";
@@ -30,6 +31,7 @@ function Home() {
             <ServicesSection itle={servicesTitle} page={servicesRoute}/>
             {/* Our achieve */}
             <Partners/>
+            <DiferenciasSection title={aboutTitle} subtitle={aboutSubtitle} text={aboutText} page={aboutRoute} image={aboutImage}/>
             <Footer/>
         </>
     );

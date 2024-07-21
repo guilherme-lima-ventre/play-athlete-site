@@ -8,7 +8,7 @@
 
 .partners div {
     display: inline-block;
-    animation: loop 40s linear infinite ;
+    animation: loop 50s linear infinite ;
 }
 
 .partners div:hover {
