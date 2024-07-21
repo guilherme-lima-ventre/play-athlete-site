@@ -1,5 +1,5 @@
 import styles from "./ContactUsBanner.module.css";
-import contactUs from "../../images/contact-us.png";
+import contactUs from "../../images/contactUs.png";
 import logoFacebook from "../../images/facebook-logo.svg";
 import logoInstagram from "../../images/instagram-logo.svg";
 import logoLinkedin from "../../images/twitter-logo.svg";
