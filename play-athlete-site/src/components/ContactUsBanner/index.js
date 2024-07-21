@@ -18,7 +18,6 @@ function ContactUsBanner() {
             <div className={styles.container}>
                 <div className={styles.item}>
                     <div className={styles.contact}>
-                        <div className={styles.first}>Nos mande uma mensagem</div>
                         <img className={styles.imagem1} src={contactUs} />
                         <div className={styles.social}>
                             <ul className={styles.media}>
@@ -31,7 +30,14 @@ function ContactUsBanner() {
                     <div className={styles.submit}>
                         <div className={styles.first}>Contate-nos</div>
                         <div className={styles.contactUsText}>
-                            
+                            Estamos ansiosos em lhe atender da melhor maneira possível.
+                        </div>
+                        <div className={styles.social}>
+                            <ul className={styles.media}>
+                                <li><a href={linkFacebook} target="_blank"><img className={styles.imagem2} src={logoFacebook}/></a></li>
+                                <li><a href={linkInstagram} target="_blank"><img className={styles.imagem2} src={logoInstagram}/></a></li>
+                                <li><a href={linkLinkedin} target="_blank"><img className={styles.imagem2} src={logoLinkedin}/></a></li>
+                            </ul>
                         </div>
                         <a href={linkWhats} target="_blank"><img className={styles.imagem3} src={whats}/></a>
                     </div>
