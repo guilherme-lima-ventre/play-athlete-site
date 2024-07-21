@@ -6,7 +6,6 @@ import styles from "./ContactUs.module.css";
 function ContactUs() {
     return (
         <>
-            <Header/>
             <section className={styles.contactUs}>
             <ContactUsBanner/>   
             </section>

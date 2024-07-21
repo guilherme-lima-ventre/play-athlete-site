@@ -23,7 +23,6 @@ function Home() {
 
     return (
         <>
-            <Header/>
             <Banner/>
             {/* About Company */}
             <ContentSection title={aboutTitle} subtitle={aboutSubtitle} text={aboutText} page={aboutRoute} image={aboutImage}/>
