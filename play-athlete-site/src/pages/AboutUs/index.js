@@ -19,7 +19,7 @@ function AboutUs() {
 
     const person3 = "Associate Partner - Lucas Taba";
     const personTitle3 = "Desde cedo, o esporte foi fundamental em sua vida, influenciado pelos pais, ambos treinadores de natação. Aos 7 anos, começou a jogar futebol e teve uma carreira de 13 anos como atleta, passando por clubes como Corinthians, Flamengo, Resende, Ituano e Áster Itaqua.";
-    const personText3 = "Atualmente, ele estuda administração na FECAP, complementando sua experiência esportiva com conhecimentos acadêmicos.Além de praticar, ele é um entusiasta de competições esportivas, acompanhando diversas modalidades. Sua vida inteira foi marcada pelo envolvimento com o esporte, tanto pessoal quanto profissionalmente.";
+    const personText3 = "Atualmente, ele estuda administração na FECAP, complementando sua experiência esportiva com conhecimentos acadêmicos. Além de praticar, ele é um entusiasta de competições esportivas, acompanhando diversas modalidades. Sua vida inteira foi marcada pelo envolvimento com o esporte, tanto pessoal quanto profissionalmente.";
     const personText4 = "Sua família sempre esteve envolvida no esporte, com seus irmãos também sendo atletas, o que criou um ambiente de incentivo e paixão pelo esporte.";
 
     const person4 = "Associate Partner - Kainan Coerin";

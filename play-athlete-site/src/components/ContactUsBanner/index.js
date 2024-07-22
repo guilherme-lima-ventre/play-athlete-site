@@ -1,48 +1,37 @@
 import styles from "./ContactUsBanner.module.css";
 import contactUs from "../../images/contactUs.png";
-import logoFacebook from "../../images/facebook-logo.svg";
-import logoInstagram from "../../images/instagram-logo.svg";
-import logoLinkedin from "../../images/twitter-logo.svg";
-import whats from "../../images/whats2.png";
-
-
+import InstagramIcon from '@mui/icons-material/Instagram';
+import WhatsAppIcon from '@mui/icons-material/WhatsApp';
+import XIcon from '@mui/icons-material/X';
+import EmailIcon from '@mui/icons-material/Email';
+import { Link } from "@mui/material";
 
 function ContactUsBanner() {
-    const linkFacebook = "https://www.facebook.com/";
-    const linkInstagram = "https://www.instagram.com/?hl=pt-br";
-    const linkLinkedin = "https://www.linkedin.com/";
-    const linkWhats = "https://wa.me/16823760929?text=Ol%C3%A1!%20Estou%20interressado%20e%20gostaria%20de%20obter%20mais%20informa%C3%A7%C3%B5es%20sobre%20a%20PlayAthlete";
+
+    const linkWhats = `https://wa.me/16823760929?text=Olá!%20Estou%20interressado%20e%20gostaria%20de%20obter%20mais%20informações%20sobre%20a%20PlayAthlete`
+    const linkX = `https://x.com/raphaellimapro`
+    const linkInsta = `https://www.instagram.com/rapha.lp/`
 
     return (
-        <section className={styles.contactUsBanner}>
-            <div className={styles.container}>
-                <div className={styles.item}>
-                    <div className={styles.contact}>
-                        <img className={styles.imagem1} src={contactUs} />
-                        <div className={styles.social}>
-                            <ul className={styles.media}>
-                                <li><a href={linkFacebook} target="_blank"><img className={styles.imagem2} src={logoFacebook}/></a></li>
-                                <li><a href={linkInstagram} target="_blank"><img className={styles.imagem2} src={logoInstagram}/></a></li>
-                                <li><a href={linkLinkedin} target="_blank"><img className={styles.imagem2} src={logoLinkedin}/></a></li>
-                            </ul>
-                        </div>
-                    </div>  
-                    <div className={styles.submit}>
-                        <div className={styles.first}>Contate-nos</div>
-                        <div className={styles.contactUsText}>
-                            Estamos ansiosos em lhe atender da melhor maneira possível.
-                        </div>
-                        <div className={styles.social}>
-                            <ul className={styles.media}>
-                                <li><a href={linkFacebook} target="_blank"><img className={styles.imagem2} src={logoFacebook}/></a></li>
-                                <li><a href={linkInstagram} target="_blank"><img className={styles.imagem2} src={logoInstagram}/></a></li>
-                                <li><a href={linkLinkedin} target="_blank"><img className={styles.imagem2} src={logoLinkedin}/></a></li>
-                            </ul>
-                        </div>
-                        <a href={linkWhats} target="_blank"><img className={styles.imagem3} src={whats}/></a>
+        <section className={styles.section}>
+            <h2>Fale Conosco</h2>
+            <hr/>
+                <div className={styles.container}>
+                    <img src={contactUs}/>
+                    <div className={styles.text}>
+                        <p><EmailIcon/>raphaellima@gmail.com</p>
+                        <Link href={linkWhats}>
+                            <p ><WhatsAppIcon />+1 (682) 376-0929</p>
+                        </Link>
+                        <Link href={linkInsta}>
+                            <p><InstagramIcon/>@rapha.lp</p>
+                        </Link>
+                        <Link href={linkX}>
+                            <p><XIcon />@raphaellimapro</p>
+                        </Link>
                     </div>
                 </div>
-            </div>
+            
         </section>
     );
 }
