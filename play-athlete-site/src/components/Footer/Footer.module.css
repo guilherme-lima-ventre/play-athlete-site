@@ -4,7 +4,9 @@
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    flex-wrap: wrap;
     min-height: 7rem;
+    gap: 2rem;
 }
 
 .footerContent {

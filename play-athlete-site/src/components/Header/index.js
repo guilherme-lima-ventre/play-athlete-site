@@ -11,7 +11,7 @@ function Header() {
                 <img 
                   className={styles.header}
                   src="../../images/logo-play-athlete.svg" 
-                  alt="Logo Play Athelte">
+                  alt="Logo PlayAthelte">
                 </img>
                 </Link>
             <PagesNavigation/>

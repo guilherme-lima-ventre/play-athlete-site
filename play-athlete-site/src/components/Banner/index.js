@@ -3,7 +3,7 @@ import arrow from "../../images/arrow-right.svg"
 import { Link } from "react-router-dom";
 
 function Banner() {
-    const bannerTitle = "Play Athlete";
+    const bannerTitle = "PlayAthlete";
     const bannerText = "A PlayAthlete é uma empresa dedicada a transformar o futuro de jovens atletas, conectando-os com faculdades americanas, possibilitando que atletas conquistem bolsas de estudo para jogarem e estudarem nos Estados Unidos. O nosso objetivo é tornar o seu sonho realidade.";
     const buttonText = "Saiba mais";
 

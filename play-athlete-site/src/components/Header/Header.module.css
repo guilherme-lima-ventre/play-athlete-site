@@ -3,7 +3,6 @@
     top: 0;
     z-index: 100;
     height: auto;
-
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;

@@ -13,7 +13,7 @@ function Footer() {
     return (
         <section className={styles.footer}>
             <div className={styles.footerContent}>
-                <img src={logoPlayAthlete} alt="Logo Play Athlete" />
+                <img src={logoPlayAthlete} alt="Logo PlayAthlete" />
             </div> 
 
             <div className={styles.footerContent}>

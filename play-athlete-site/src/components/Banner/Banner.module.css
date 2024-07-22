@@ -67,3 +67,23 @@
 .banner button:active {
     background-color: var(--hover-blue-color);
 }
+
+
+
+@media (max-width: 1000px) {
+    .banner h1 {
+        max-width: 50rem;
+        padding-right: calc(100vw - 70rem);
+    
+        font-size: 3rem;
+        font-weight: 600;
+        line-height: 5rem;
+        text-align: left;
+        color: var(--white-color);
+    }
+
+    .banner {
+        background-size: cover;
+    }
+
+}

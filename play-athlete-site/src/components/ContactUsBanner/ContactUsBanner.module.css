@@ -16,6 +16,11 @@
     gap: 1.5rem;
 }
 
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .text {
     display: flex;
     justify-content: flex-start;
@@ -54,7 +59,6 @@
     }
 
     .section div {
-        width: 100vw;
         padding-inline: 3rem !important;
     }
 
