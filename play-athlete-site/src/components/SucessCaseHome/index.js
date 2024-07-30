@@ -3,14 +3,14 @@ import SucessCase from '../SucessCase';
 import styles from "./SucessCaseHome.module.css";
 
 function SucessCaseHome() {
-    const person1 = "Kainan Coerin";
-    const personTitle1 = "Sua trajetória esportiva começou cedo, nadando desde os três anos de idade. Ele passou por clubes como Juventus e Corinthians, sempre dividindo sua paixão entre natação e futebol.";
-    const personText1 = "Atualmente, reside e treina em Miami, onde trabalha como psicólogo. É sócio idealizador da PlayAthlete e proprietário do grupo Raphael Lima Pro, uma empresa especializada em psicologia esportiva. Com quase duas décadas no cenário esportivo, ele combina o melhor do mundo atlético e empresarial, contribuindo para o desenvolvimento de atletas tanto dentro quanto fora das quadras e piscinas mundo a fora. ";
+    const person1 = "Leo Paes da Silva";
+    const personTitle1 = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.";
+    const personText1 = "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.";
 
     return (
         <section className={styles.sucessSection}>
             <div className={styles.title}>
-            <h2 >Case de sucesso</h2>
+            <h2>Case de sucesso</h2>
             <hr/>
             </div>
             <SucessCase title={person1} subtitle={personTitle1} subtitle2={personText1} image={kainan} flexDirection="row"></SucessCase>
