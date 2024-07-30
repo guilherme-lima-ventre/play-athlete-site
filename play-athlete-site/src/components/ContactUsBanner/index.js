@@ -21,10 +21,10 @@ function ContactUsBanner() {
                     <div className={styles.text}>
                         <p><EmailIcon/>suporte@playathlete.com.br</p>
                         <Link href={linkWhats}>
-                            <p ><WhatsAppIcon />+1 (682) 376-0929</p>
+                        <p className={styles.textWhats}><WhatsAppIcon />+1 (682) 376-0929</p>
                         </Link>
-                        <Link href={linkInsta}>
-                            <p><InstagramIcon/>@playathlete</p>
+                        <Link href={linkInsta} target="_blank">
+                        <p className={styles.textInsta}><InstagramIcon/>@playathlete</p>
                         </Link>
 
                     </div>
@@ -32,7 +32,7 @@ function ContactUsBanner() {
             <hr/>
             <div className={styles.titles}>
                 <h2>Se interessou na PlayAthelte?</h2>
-                <h3>Conte um pouco mais sobre você clicando <a href={linkForms}> Aqui!</a></h3>
+                <h3>Conte um pouco mais sobre você clicando <a href={linkForms} target="_blank"> Aqui!</a></h3>
             </div>
         </section>
     );

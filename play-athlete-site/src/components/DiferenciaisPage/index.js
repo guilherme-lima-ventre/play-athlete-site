@@ -7,7 +7,7 @@ import solucao from "../../images/solucao.png";
 
 import ServiceContent from "../ServiceContent";
 
-function DiferenciasSection({ title, subtitle, text, page, image }) {
+function DiferenciasSection() {
 
     const service1Title = "Experiência Pessoal";
     const service1Text = "Nosso fundador e membros da nossa equipe vivenciaram a experiência de estudar e competir nos Estados Unidos. Essa vivência prática nos permite entender profundamente os desafios e as necessidades dos atletas, oferecendo uma orientação baseada em experiência real.";
@@ -30,13 +30,13 @@ function DiferenciasSection({ title, subtitle, text, page, image }) {
             <h2>Nosso Diferencial</h2>
             <hr/>
             <div>
-                <ServiceContent serviceImage={experiencia} serviceTitle={service1Title} serviceText={service1Text} page={page}/>
-                <ServiceContent serviceImage={solucao} serviceTitle={service2Title} serviceText={service2Text} page={page}/>
-                <ServiceContent serviceImage={contatos} serviceTitle={service3Title} serviceText={service3Text} page={page}/>
+                <ServiceContent serviceImage={experiencia} serviceTitle={service1Title} serviceText={service1Text}/>
+                <ServiceContent serviceImage={solucao} serviceTitle={service2Title} serviceText={service2Text}/>
+                <ServiceContent serviceImage={contatos} serviceTitle={service3Title} serviceText={service3Text}/>
             </div>
             <div>
-                <ServiceContent serviceImage={psicologico} serviceTitle={service5Title} serviceText={service5Text} page={page}/>
-                <ServiceContent serviceImage={acompanhamento} serviceTitle={service4Title} serviceText={service4Text} page={page}/>
+                <ServiceContent serviceImage={psicologico} serviceTitle={service5Title} serviceText={service5Text}/>
+                <ServiceContent serviceImage={acompanhamento} serviceTitle={service4Title} serviceText={service4Text}/>
             </div>
         </section>
     );

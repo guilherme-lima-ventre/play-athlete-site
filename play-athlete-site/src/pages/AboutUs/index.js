@@ -3,7 +3,11 @@ import AboutUsPageSection from "../../components/AboutUsPageSection";
 import lucas from '../../images/lucasTaba.jpg';
 import raphael from '../../images/raphaelLima.jpg';
 import adriana from '../../images/adrianaZanetti.png';
-import kainan from '../../images/kainanCoerin.jpg';
+import kainan from '../../images/kainanCoerin.jpeg';
+import teste7 from '../../images/site_linhas.png';
+import teste77 from '../../images/site_linhas2.png';
+import teste8 from '../../images/site_linhas3.png';
+import teste88 from '../../images/site_linhas4.png';
 
 function AboutUs() {
     const person1 = "CEO - Raphael Lima";
@@ -35,10 +39,10 @@ function AboutUs() {
 
     return (
         <section>
-            <AboutUsPageSection title={person1} title2={person11} title3={person111} subtitle={personTitle1} subtitle2={personText6} text={personText1} image={raphael} flexDirection="row"></AboutUsPageSection>
-            <AboutUsPageSection title={person2} title2={person22} title3={person222} subtitle={personTitle2} subtitle2={personText5} text={personText2} image={adriana} flexDirection="row-reverse"></AboutUsPageSection>
-            <AboutUsPageSection title={person3} title2={person33} title3={person333}subtitle={personTitle3} subtitle2={personText4} text={personText3} image={lucas} flexDirection="row"></AboutUsPageSection>
-            <AboutUsPageSection title={person4} title2={person44} title3={person444} subtitle={personTitle4} subtitle2={personText7} image={kainan} flexDirection="row-reverse"></AboutUsPageSection>
+            <AboutUsPageSection title={person1} title2={person11} title3={person111} subtitle={personTitle1} subtitle2={personText6} text={personText1} image={teste88} flexDirection="row"></AboutUsPageSection>
+            <AboutUsPageSection title={person2} title2={person22} title3={person222} subtitle={personTitle2} subtitle2={personText5} text={personText2} image={teste7} flexDirection="row-reverse"></AboutUsPageSection>
+            <AboutUsPageSection title={person3} title2={person33} title3={person333}subtitle={personTitle3} subtitle2={personText4} text={personText3} image={teste8} flexDirection="row"></AboutUsPageSection>
+            <AboutUsPageSection title={person4} title2={person44} title3={person444} subtitle={personTitle4} subtitle2={personText7} image={teste77} flexDirection="row-reverse"></AboutUsPageSection>
             <Footer/>
         </section>
     );

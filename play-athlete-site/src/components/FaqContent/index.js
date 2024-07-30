@@ -44,10 +44,9 @@ function FaqContent() {
     ];
 
     return (
-        <Container className={styles.faq}>
+        <section className={styles.faq}>
             <h2>Perguntas Frequentes</h2>
             <hr/>
-
             {faqs.map((faq, index) => (
                 <Accordion key={index}>
                     <AccordionSummary expandIcon={<ExpandMoreIcon />}>
@@ -58,7 +57,7 @@ function FaqContent() {
                     </AccordionDetails>
                 </Accordion>
             ))}
-        </Container>
+        </section>
     );
 }
 

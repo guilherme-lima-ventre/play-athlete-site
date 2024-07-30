@@ -8,7 +8,7 @@ import escolha from "../../images/escolha.png";
 import apoio from "../../images/apoio-suporte.png";
 import ServiceContent from "../ServiceContent";
 
-function ContentSection({ title, subtitle, text, page, image }) {
+function ContentSection({ page}) {
 
     const service1Title = "Planejamento Personalizado";
     const service1Text = "Começamos identificando o histórico e os objetivos do atleta para a criação de um cronograma detalhado para o processo de candidatura, levando em conta a idade do atleta e o tempo disponível.";

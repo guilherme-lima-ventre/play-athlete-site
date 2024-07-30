@@ -4,11 +4,10 @@ import MediasNavigation from "../MediasNavigation";
 import EmailIcon from '@mui/icons-material/Email';
 
 function Footer() {
-    const companyText = "Quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione";
     const contactText = "suporte@playathlete.com.br";
-    const copyrightText = "Copyright © 2023";
+    const copyrightText = "Copyright © 2024";
     const pageLinks = "Contato";
-    const mediasLinks = "Medias";
+    const mediasLinks = "Mídias Sociais";
 
     return (
         <section className={styles.footer}>
@@ -18,7 +17,7 @@ function Footer() {
 
             <div className={styles.footerContent}>
                 <h2>{pageLinks}</h2>
-                <p>{contactText}<EmailIcon/></p>
+                <p><EmailIcon/>{contactText}</p>
             </div>
 
             <div className={styles.footerContent}>
