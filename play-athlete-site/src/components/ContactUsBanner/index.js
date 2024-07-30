@@ -19,7 +19,7 @@ function ContactUsBanner() {
                 <div className={styles.container}>
                     <img src={contactUs}/>
                     <div className={styles.text}>
-                        <p><EmailIcon/>raphaellima@gmail.com</p>
+                        <p><EmailIcon/>suporte@playathlete.com.br</p>
                         <Link href={linkWhats}>
                             <p ><WhatsAppIcon />+1 (682) 376-0929</p>
                         </Link>

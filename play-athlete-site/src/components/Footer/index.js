@@ -5,7 +5,7 @@ import EmailIcon from '@mui/icons-material/Email';
 
 function Footer() {
     const companyText = "Quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione";
-    const contactText = "raphaellima@gmail.com";
+    const contactText = "suporte@playathlete.com.br";
     const copyrightText = "Copyright © 2023";
     const pageLinks = "Contato";
     const mediasLinks = "Medias";
