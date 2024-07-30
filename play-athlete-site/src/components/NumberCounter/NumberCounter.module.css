@@ -21,3 +21,9 @@
     font-weight: 500;
     color: var(--grey-color);
 }
+
+@media (max-width: 1000px) {
+    .container p {
+        font-size: 0.8rem;
+    }
+}

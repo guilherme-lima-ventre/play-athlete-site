@@ -5,7 +5,6 @@
     align-content: center;
     justify-content: center;
     align-items: flex-start;
-
     padding-block: 1rem;
     padding-left: 3rem;
     padding-right: 0.5rem;
@@ -74,16 +73,21 @@
     .banner h1 {
         max-width: 50rem;
         padding-right: calc(100vw - 70rem);
-    
         font-size: 3rem;
         font-weight: 600;
         line-height: 5rem;
-        text-align: left;
+        text-align: center;
         color: var(--white-color);
+    }
+
+    .banner p {
+        text-align: center;
     }
 
     .banner {
         background-size: cover;
+        align-items: center;
+        padding-left: 0;
     }
 
 }
