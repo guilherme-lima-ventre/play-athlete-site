@@ -61,14 +61,6 @@
         padding-inline: 1rem;
     }
 
-    .servicesSection h2 {
-        padding-left: 3rem;
-    }
-
-    .servicesSection hr {
-        margin-left: 3rem;
-    }
-
     .servicesSection div {
         display: grid;
         grid-template-columns: repeat(1, 3fr);

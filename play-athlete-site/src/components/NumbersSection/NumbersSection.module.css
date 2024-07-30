@@ -1,0 +1,59 @@
+.numbersSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    gap: 1rem;
+    background-color: var(--light-blue-color);
+}
+
+.numbersSection h2 {
+    font-size: 2rem;
+    font-weight: 600;
+    text-align: center;
+    color: var(--dark-blue-color);
+    align-self: center;
+}
+
+.numbersSection h4 {
+    font-size: 1rem;
+    font-weight: 500;
+    text-align: center;
+    color: var(--grey-color);
+    align-self: center;
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+
+.numbersSection hr {
+    width: 4rem;
+    border: solid 2px var(--green-color);
+    align-self: center;
+    margin-bottom: 20px;
+}
+
+.container { 
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    width: 100%;
+}
+
+@media (max-width: 1000px) {
+    .numbersSection {
+        flex-wrap: wrap;
+        padding-inline: 1rem;
+    }
+}
+
+@media (min-width: 1001px) {
+    .numbersSection {
+        flex-wrap: nowrap;
+        padding-inline: 10rem;
+    }
+}

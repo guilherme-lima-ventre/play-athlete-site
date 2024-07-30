@@ -5,7 +5,7 @@
     justify-content: center;
     padding: 2rem;
     gap: 1rem;
-    background-color: var(--light-blue-color);
+    background-color: var(--white-color);
 }
 
 .servicesSection h2 {
@@ -59,14 +59,6 @@
     .servicesSection {
         flex-wrap: wrap;
         padding-inline: 1rem;
-    }
-
-    .servicesSection h2 {
-        padding-left: 3rem;
-    }
-
-    .servicesSection hr {
-        margin-left: 3rem;
     }
 
     .servicesSection div {

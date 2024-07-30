@@ -11,7 +11,7 @@
 .servicesSection h2 {
     font-size: 2rem;
     font-weight: 600;
-    text-align: left;
+    text-align: center;
     color: var(--dark-blue-color);
     align-self: center;
 }
@@ -64,14 +64,6 @@
     .servicesSection {
         flex-wrap: wrap;
         padding-inline: 1rem;
-    }
-
-    .servicesSection h2 {
-        padding-left: 3rem;
-    }
-
-    .servicesSection hr {
-        margin-left: 3rem;
     }
 
     .servicesSection div {
