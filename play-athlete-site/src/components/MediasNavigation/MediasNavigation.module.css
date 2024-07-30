@@ -7,6 +7,10 @@
     padding: 1rem;
 }
 
+.medias a {
+    color: var(--dark-blue-color);
+}
+
 .medias img {
     width: 25px;
     height: 25px;

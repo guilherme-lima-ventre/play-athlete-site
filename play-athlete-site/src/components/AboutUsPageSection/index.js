@@ -1,6 +1,6 @@
 import styles from "./AboutUsPageSection.module.css";
 
-function AboutUsPageSection({ title, subtitle, subtitle2, text, image, flexDirection }) {
+function AboutUsPageSection({ title, title2, title3, subtitle, subtitle2, text, image, flexDirection }) {
     const paddingRight = flexDirection === "row-reverse" ? "10rem" : "0";
     const paddingLeft = flexDirection === "row-reverse" ? "0" : "10rem";
     const backgroundColor = flexDirection === "row" ? "var(--white-color)" : "var(--light-blue-color)";
@@ -12,7 +12,9 @@ function AboutUsPageSection({ title, subtitle, subtitle2, text, image, flexDirec
                 src={image}
                 alt={title}/>
             <div style={{paddingRight, paddingLeft}}>
-                <h2>{title}</h2>
+                <h2 className={styles.tiltle}>{title}</h2>
+                <h2 className={styles.title2}>{title2}</h2>
+                <h2 className={styles.title3}>{title3}</h2>
                 <hr/>
                 <h3>{subtitle}</h3>
                 <h3>{subtitle2}</h3>

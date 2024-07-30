@@ -23,6 +23,15 @@
     gap: 1rem;
 }
 
+.title2 {
+    display: none;
+}
+
+.title3 {
+    display: none;
+}
+
+
 .section h2 {
     font-size: 2rem;
     font-weight: 600;
@@ -59,10 +68,31 @@
     .section div {
         width: 100vw;
         padding-inline: 3rem !important;
+        display: flex;
+        align-items: center;
     }
 
+    .section h2 {
+        font-size: 1.6rem;
+        font-weight: 600;
+        text-align: center;
+        color: var(--dark-blue-color);
+    }
+
+    .tiltle {
+        display: none;
+    }
+
+    .title2 {
+        display: block;
+    }
+    .title3 {
+        display: block;
+    }
+    
+
     .section img {
-        width: 75vw;
+        width: auto;
     }
 
 }

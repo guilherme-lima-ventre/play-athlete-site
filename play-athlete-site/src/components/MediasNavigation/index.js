@@ -1,23 +1,27 @@
 import styles from "./MediasNavigation.module.css";
 import logoFacebook from "../../images/facebook-logo.svg";
 import logoInstagram from "../../images/instagram-logo.svg";
-import logoLinkedin from "../../images/twitter-logo.svg";
+import InstagramIcon from '@mui/icons-material/Instagram';
+import WhatsAppIcon from '@mui/icons-material/WhatsApp';
+
+import EmailIcon from '@mui/icons-material/Email';
+
 
 function MediasNavigation({ flexDirection="row" }) {
-    const linkFacebook = "https://www.facebook.com/";
-    const linkInstagram = "https://www.instagram.com/?hl=pt-br";
-    const linkLinkedin = "https://www.linkedin.com/";
+    const linkWhats = "https://wa.me/16823760929?text=Olá!%20Estou%20interressado%20e%20gostaria%20de%20obter%20mais%20informações%20sobre%20a%20PlayAthlete";
+    const linkInstagram = "https://www.instagram.com/playathlete/";
+    const linkEmail = "suporte@playathlete.com.br";
 
     return (
         <nav className={styles.medias} style={{flexDirection}}>
-            <a href={linkFacebook} target="_blank">
-                <img src={logoFacebook} alt="Logo Facebook"/>
+            <a href={linkWhats} target="_blank">
+                <WhatsAppIcon />
             </a>
             <a href={linkInstagram} target="_blank">
-                <img src={logoInstagram} alt="Logo Instagram"/>
+                <InstagramIcon />
             </a>
-            <a href={linkLinkedin} target="_blank">
-                <img src={logoLinkedin} alt="Logo Linkedin"/>
+            <a href={linkEmail} target="_blank">
+                <EmailIcon />
             </a>
         </nav>
     );

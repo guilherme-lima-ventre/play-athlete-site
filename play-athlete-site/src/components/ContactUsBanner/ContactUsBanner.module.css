@@ -6,8 +6,7 @@
 }
 
 .section img {
-    width: 20%;
-    height: 30%;
+    width: 17%;
 }
 
 .section div {
@@ -23,8 +22,6 @@
 
 .text {
     display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
     flex-direction: column;
     padding-left: 1.5rem;
 }
@@ -34,6 +31,24 @@
     font-weight: 600;
     align-self: center;
     color: var(--dark-blue-color);
+}
+
+.titles {
+    display: flex;
+    flex-direction: column;
+}
+
+.section h3 {
+    font-size: 1.6rem;
+    font-weight: 600;
+    align-self: center;
+}
+
+.section a {
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: var(--dark-blue-color);
+    cursor: pointer;
 }
 
 .section hr {
@@ -55,15 +70,15 @@
 
 @media (max-width: 1000px) {
     .section {
-        padding: 1rem;
+        padding: 0.8rem;
     }
 
     .section div {
-        padding-inline: 3rem !important;
+        padding-inline: 2.5rem !important;
     }
 
     .section img {
-        width: 20%;
+        width: 50%;
     }
 
 }
