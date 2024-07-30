@@ -28,3 +28,18 @@
         transform: translate(-850%);
     }
 }
+
+@media (max-width: 1000px) {
+    .partners div  {
+        animation: loop 65s linear infinite ;
+    }
+
+    @keyframes loop {
+        from {
+            transform: translateX(0);
+        }
+        to {
+            transform: translate(-5200%);
+        }
+    }
+}
