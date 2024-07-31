@@ -4,7 +4,7 @@
     justify-content: center;
     align-items: flex-start;
     gap: 1rem;
-    padding: 2rem 10rem;
+    padding-block: 2rem;
 }
 
 .section img {
@@ -32,6 +32,7 @@
 .section hr {
     width: 4rem;
     border: solid 2px var(--green-color);
+    align-self: center;
 }
 
 .section h3 {
