@@ -1,8 +1,8 @@
 import styles from "./AboutUsPageSection.module.css";
 
 function AboutUsPageSection({ title, title2, title3, subtitle, subtitle2, text, image, flexDirection }) {
-    const paddingRight = flexDirection === "row-reverse" ? "10rem" : "0";
-    const paddingLeft = flexDirection === "row-reverse" ? "0" : "10rem";
+    const paddingRight = flexDirection === "row-reverse" ? "1rem" : "0";
+    const paddingLeft = flexDirection === "row-reverse" ? "0" : "1rem";
     const backgroundColor = flexDirection === "row" ? "var(--white-color)" : "var(--light-blue-color)";
 
     return (

@@ -1,21 +1,21 @@
 .section {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-between;
     align-items: flex-start;
     gap: 1rem;
-    padding: 2rem 10rem;
+    padding: 2rem 5rem;
 }
 
 .section img {
     width: auto;
+    align-self: center;
     justify-content: center;
     height: 50vh;
 }
 
 .section div {
     width: 50%;
-    margin: auto;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -63,6 +63,7 @@
 @media (max-width: 1000px) {
     .section {
         padding: 1rem;
+        justify-content: center;
     }
 
     .section div {
@@ -70,6 +71,7 @@
         padding-inline: 3rem !important;
         display: flex;
         align-items: center;
+        justify-content: center;
     }
 
     .section h2 {
@@ -90,9 +92,9 @@
         display: block;
     }
     
-
     .section img {
         width: auto;
+
     }
 
 }
