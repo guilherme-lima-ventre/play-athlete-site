@@ -3,7 +3,7 @@ import logo1 from "../../images/grand-valley.png";
 import logo2 from "../../images/miami-hurricanes.png";
 import logo3 from "../../images/michigan-wolverines.png";
 import logo4 from "../../images/arizona-state.png";
-import logo5 from "../../images/ucla.png";
+import logo5 from "../../images/ucla4.png";
 import logo6 from "../../images/Cópia de Auburn_Tigers_logo.svg.png";
 import logo7 from "../../images/Cópia de California_Golden_Bears_logo.svg.png";
 import logo8 from "../../images/Cópia de carson-newman-university-logo-EBC4A87CB5-seeklogo.com.png";
@@ -18,7 +18,7 @@ import logo16 from "../../images/Cópia de Notre_Dame_Fighting_Irish_logo.svg.pn
 import logo17 from "../../images/Cópia de Nova_Southeastern_Sharks_primary_logo.svg.png";
 import logo18 from "../../images/Cópia de RightHog.png";
 import logo19 from "../../images/Cópia de south carolina.png";
-import logo20 from "../../images/Cópia de Stanford-University-Logo (1).png";
+import logo20 from "../../images/stanford.png";
 import logo21 from "../../images/Cópia de tampa.png";
 import logo22 from "../../images/Cópia de TCU_Horned_Frogs_logo.svg.png";
 import logo23 from "../../images/Cópia de Tennessee_Volunteers_logo.svg.png";
@@ -26,7 +26,7 @@ import logo24 from "../../images/Cópia de Texas_Longhorns_logo.svg.png";
 import logo25 from "../../images/Cópia de ua_stack_rgb_4.png";
 import logo26 from "../../images/Cópia de UIndyGreyhounds.png";
 import logo27 from "../../images/Cópia de Utah_Utes_logo.svg.png";
-import logo28 from "../../images/Cópia de wingate-bulldogs-logo.png";
+import logo28 from "../../images/bulldogs.png";
 import logo29 from "../../images/athletic.png";
 
 function Partners() {

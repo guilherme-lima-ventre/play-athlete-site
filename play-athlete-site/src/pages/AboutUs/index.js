@@ -1,13 +1,9 @@
 import Footer from "../../components/Footer";
 import AboutUsPageSection from "../../components/AboutUsPageSection";
-import lucas from '../../images/lucasTaba.jpg';
-import raphael from '../../images/raphaelLima.jpg';
-import adriana from '../../images/adrianaZanetti.png';
-import kainan from '../../images/kainanCoerin.jpeg';
-import teste7 from '../../images/site_linhas.png';
-import teste77 from '../../images/site_linhas2.png';
-import teste8 from '../../images/site_linhas3.png';
-import teste88 from '../../images/site_linhas4.png';
+import teste7 from '../../images/adriana.png';
+import teste77 from '../../images/kainan.png';
+import teste8 from '../../images/lucas.png';
+import teste88 from '../../images/raphael.png';
 
 function AboutUs() {
     const person1 = "CEO - Raphael Lima";
