@@ -18,9 +18,10 @@
 .bannerTitle {
     width: fit-content;
     background-color: rgba(0, 0, 0, 0.5);
-    padding: 1rem;
+    padding: 0.7rem;
     border-radius: 1rem;
-} 
+}
+
 
 .banner h1 {
     max-width: 50rem;
@@ -87,6 +88,10 @@
         color: var(--white-color);
     }
 
+    .bannerTitle {
+        margin: 0 auto;
+    }
+
     .banner p {
         text-align: center;
     }
@@ -94,7 +99,9 @@
     .banner {
         background-size: cover;
         align-items: center;
-        padding-left: 0;
+        
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
     }
 
 }
