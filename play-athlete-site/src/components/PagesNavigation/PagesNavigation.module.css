@@ -25,8 +25,12 @@
 
 @media (max-width: 1000px) {
     .pages {
-        gap: 1rem 1rem;
-        padding: 1rem 1rem;
+        gap: 0rem;
+        padding: 0;
+    }
+
+    .pages a {
+        padding: 0.25rem;
     }
 }
 

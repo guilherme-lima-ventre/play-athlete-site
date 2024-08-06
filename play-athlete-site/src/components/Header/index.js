@@ -22,21 +22,15 @@ function Header() {
 
     return (
         <section className={styles.header}>
-            {isSmallScreen ? 
-                null :
-                <Link to="/">
-                    <img 
-                    className={styles['header-img']}
-                    src="../../images/logo-play-athlete.svg" 
-                    alt="Logo PlayAthelte">
-                    </img>
-                </Link>
-            }   
+            <Link to="/">
+                <img 
+                className={styles['header-img']}
+                src="../../images/logo-play-athlete.svg" 
+                alt="Logo PlayAthelte">
+                </img>
+            </Link>
             <PagesNavigation/>
-            {isSmallScreen ? 
-                null :
-                <MediasNavigation className={styles.medias}/>
-            }
+            <MediasNavigation className={styles.medias}/>
         </section>
     )
 }

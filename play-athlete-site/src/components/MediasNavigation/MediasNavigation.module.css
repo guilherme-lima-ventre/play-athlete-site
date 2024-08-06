@@ -32,3 +32,10 @@
 .textInsta:hover {
     color: #C13584;
 }
+
+@media (max-width: 1000px) {
+    .medias {
+        gap: 0.5rem;
+        padding: 0.25rem;
+    }
+}

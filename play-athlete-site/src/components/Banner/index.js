@@ -9,8 +9,10 @@ function Banner() {
 
     return (
         <section className={styles.banner}>
-            <h1>{bannerTitle}</h1>
-            <p>{bannerText}</p>
+            <div className={styles.bannerContent}>
+                <h1>{bannerTitle}</h1>
+                <p>{bannerText}</p>
+            </div>
             <Link to="/sobre-nos" style={{color: 'white'}}>
                 <button>
                     {buttonText}
