@@ -3,8 +3,8 @@ import styles from "./PagesNavigation.module.css";
 
 function PagesNavigation({ flexDirection="row" }) {
     const home = "HOME";
-    const services = "SOBRE NÓS";
-    const aboutUs = "NOSSO TIME";
+    const services = "SOBRE";
+    const aboutUs = "TIME";
     const contactUs = "CONTATO";
     const faq = "FAQ";
 

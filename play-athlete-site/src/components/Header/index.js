@@ -22,8 +22,8 @@ function Header() {
 
     return (
         <section className={styles.header}>
-            {isSmallScreen ? 
-                null :
+            {/* {isSmallScreen ? 
+                null : */}
                 <Link to="/">
                     <img 
                     className={styles['header-img']}
@@ -31,7 +31,7 @@ function Header() {
                     alt="Logo PlayAthelte">
                     </img>
                 </Link>
-            }   
+            {/* }    */}
             <PagesNavigation/>
             {isSmallScreen ? 
                 null :

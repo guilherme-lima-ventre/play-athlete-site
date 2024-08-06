@@ -10,6 +10,7 @@
     padding-right: 0.5rem;
     min-height: 50vh;
     background-image: url(faculdade.jpg); 
+    background-image: url(banner.jpg); 
     background-repeat: no-repeat;
     background-position: bottom;
     background-size: 100%;
@@ -32,7 +33,7 @@
     font-size: 1.3rem;
     line-height: 1.5rem;
     text-align: left;
-    color: var(--white-color)
+    color: var(--blue-color)
 }
 
 .banner button {
