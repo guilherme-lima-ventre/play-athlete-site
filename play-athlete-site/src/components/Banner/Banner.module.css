@@ -9,7 +9,6 @@
     padding-left: 3rem;
     padding-right: 0.5rem;
     min-height: 50vh;
-    background-image: url(faculdade.jpg); 
     background-image: url(banner.jpg); 
     background-repeat: no-repeat;
     background-position: bottom;
@@ -17,7 +16,8 @@
 }
 
 .bannerTitle {
-    background-color: rgba(255, 255, 255, 0.5);
+    width: fit-content;
+    background-color: rgba(0, 0, 0, 0.5);
     padding: 1rem;
     border-radius: 1rem;
 } 
@@ -30,7 +30,7 @@
     font-weight: 600;
     line-height: 5rem;
     text-align: left;
-    color: var(--dark-medium-blue-color);
+    color: var(--white-color);
 }
 
 .banner p {
@@ -39,7 +39,7 @@
     font-size: 1.3rem;
     line-height: 1.5rem;
     text-align: left;
-    color: var(--dark-medium-blue-color)
+    color: var(--white-color)
 }
 
 .banner button {
