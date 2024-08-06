@@ -3,7 +3,7 @@ import contactUs from "../../images/contactUs.png";
 import InstagramIcon from '@mui/icons-material/Instagram';
 import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 import XIcon from '@mui/icons-material/X';
-import EmailIcon from '@mui/icons-material/Email';
+import EmailIcon from '@mui/icons-material/MailOutline';
 import { Link } from "@mui/material";
 
 function ContactUsBanner() {
@@ -19,7 +19,7 @@ function ContactUsBanner() {
                 <div className={styles.container}>
                     <img src={contactUs}/>
                     <div className={styles.text}>
-                        <p><EmailIcon/>suporte@playathlete.com.br</p>
+                        <p><EmailIcon />suporte@playathlete.com.br</p>
                         <Link href={linkWhats}>
                         <p className={styles.textWhats}><WhatsAppIcon />+1 (682) 376-0929</p>
                         </Link>
