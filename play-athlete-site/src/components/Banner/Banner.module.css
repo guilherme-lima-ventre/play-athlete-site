@@ -16,6 +16,12 @@
     background-size: 100%;
 }
 
+.bannerTitle {
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 1rem;
+    border-radius: 1rem;
+} 
+
 .banner h1 {
     max-width: 50rem;
     padding-right: calc(100vw - 70rem);
@@ -24,7 +30,7 @@
     font-weight: 600;
     line-height: 5rem;
     text-align: left;
-    color: var(--white-color);
+    color: var(--dark-medium-blue-color);
 }
 
 .banner p {
@@ -33,7 +39,7 @@
     font-size: 1.3rem;
     line-height: 1.5rem;
     text-align: left;
-    color: var(--blue-color)
+    color: var(--dark-medium-blue-color)
 }
 
 .banner button {
@@ -50,7 +56,7 @@
     margin-top: 1rem;
     padding: 0.5rem 2rem;
     border-radius: 0.25rem;
-    background-color: var(--darker-blue-color);
+    background-color: var(--dark-medium-blue-color);
     border: transparent;
 
     color: var(--white-color);
@@ -61,11 +67,11 @@
 }
 
 .banner button:hover {
-    background-color: var(--active-blue-color);
+    background-color: var(--active-medium-blue-color);
 }
 
 .banner button:active {
-    background-color: var(--hover-blue-color);
+    background-color: var(--hover-medium-blue-color);
 }
 
 
