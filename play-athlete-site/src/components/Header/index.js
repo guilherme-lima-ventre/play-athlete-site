@@ -28,7 +28,7 @@ function Header() {
                     <img 
                     className={styles['header-img']}
                     src="../../images/logo-play-athlete.svg" 
-                    alt="Logo PlayAthelte">
+                    alt="Logo PlayAthlete">
                     </img>
                 </Link>
             {/* }    */}

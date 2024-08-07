@@ -31,7 +31,7 @@ function ContactUsBanner() {
                 </div>
             <hr/>
             <div className={styles.titles}>
-                <h2>Se interessou na PlayAthelte?</h2>
+                <h2>Se interessou na PlayAthlete?</h2>
                 <h3>Conte um pouco mais sobre você clicando <a href={linkForms} target="_blank"> Aqui!</a></h3>
             </div>
         </section>
