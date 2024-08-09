@@ -8,7 +8,7 @@ import { Link } from "@mui/material";
 
 function ContactUsBanner() {
 
-    const linkWhats = `https://wa.me/16823760929?text=Olá!%20Estou%20interressado%20e%20gostaria%20de%20obter%20mais%20informações%20sobre%20a%20PlayAthlete`
+    const linkWhats = `https://wa.me/5511970743961?text=Ol%C3%A1!%20Estou%20interressado%20e%20gostaria%20de%20obter%20mais%20informa%C3%A7%C3%B5es%20sobre%20a%20PlayAthlete`
     const linkForms = `https://docs.google.com/forms/d/e/1FAIpQLSfqPAfKw4zRafbMQhtJEo3IQmQ5H23IvK_DnSkfWlLe2tfeDA/viewform`
     const linkInsta = `https://www.instagram.com/playathlete/`
 
@@ -21,7 +21,7 @@ function ContactUsBanner() {
                     <div className={styles.text}>
                         <p><EmailIcon/>suporte@playathlete.com.br</p>
                         <Link href={linkWhats}>
-                        <p className={styles.textWhats}><WhatsAppIcon />+1 (682) 376-0929</p>
+                        <p className={styles.textWhats}><WhatsAppIcon />(11)97074-3961</p>
                         </Link>
                         <Link href={linkInsta} target="_blank">
                         <p className={styles.textInsta}><InstagramIcon/>@playathlete</p>
