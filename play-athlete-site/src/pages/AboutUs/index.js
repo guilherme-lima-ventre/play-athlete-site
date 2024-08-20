@@ -1,7 +1,7 @@
 import Footer from "../../components/Footer";
 import AboutUsPageSection from "../../components/AboutUsPageSection";
 import teste7 from '../../images/adriana.png';
-import teste77 from '../../images/kainan.png';
+import teste77 from '../../images/kainan1.png';
 import teste8 from '../../images/lucas.png';
 import teste88 from '../../images/raphael.png';
 

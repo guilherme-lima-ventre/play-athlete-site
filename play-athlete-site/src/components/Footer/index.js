@@ -5,6 +5,7 @@ import EmailIcon from '@mui/icons-material/Email';
 
 function Footer() {
     const contactText = "suporte@playathlete.com.br";
+    const contactText2 = "CNPJ - 55.889.193/0001-75";
     const copyrightText = "Copyright © 2024";
     const pageLinks = "Contato";
     const mediasLinks = "Mídias Sociais";
@@ -13,6 +14,7 @@ function Footer() {
         <section className={styles.footer}>
             <div className={styles.footerContent}>
                 <img src={logoPlayAthlete} alt="Logo PlayAthlete" />
+                <p className={styles.cnpj}>{contactText2}</p>
             </div> 
 
             <div className={styles.footerContent}>

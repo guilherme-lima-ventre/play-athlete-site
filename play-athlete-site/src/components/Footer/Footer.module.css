@@ -33,6 +33,14 @@
     gap: 0.2rem;
 }
 
+.footerContent .cnpj {
+    font-size: 1rem;
+    font-weight: 1000;
+    line-height: 1rem;
+    color: var(--dark-blue-color);
+    gap: 0.2rem;
+}
+
 @media (max-width: 1000px) {
     .footer {
         padding: 1rem 1rem;
