@@ -21,7 +21,7 @@ function ContactUsBanner() {
                     <div className={styles.text}>
                         <p><EmailIcon/>suporte@playathlete.com.br</p>
                         <Link href={linkWhats}>
-                        <p className={styles.textWhats}><WhatsAppIcon />(11)97074-3961</p>
+                        <p className={styles.textWhats}><WhatsAppIcon />(11) 95462-2074</p>
                         </Link>
                         <Link href={linkInsta} target="_blank">
                         <p className={styles.textInsta}><InstagramIcon/>@playathlete</p>
